@@ -1,0 +1,45 @@
+{
+  "firestore": [
+    {
+      "database": "futureme-eu",
+      "rules": "firestore.rules",
+      "indexes": "firestore.indexes.json"
+    }
+  ],
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "scripts"
+      ]
+    }
+  ],
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "futureme-a6ea7",
+          "appId": "1:283516933465:android:ac77529eb2bd341b0da848",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "futureme-a6ea7",
+          "configurations": {
+            "android": "1:283516933465:android:ac77529eb2bd341b0da848",
+            "ios": "1:283516933465:ios:baba2057ac435c1f0da848"
+          }
+        }
+      }
+    }
+  },
+  "extensions": {
+    "firestore-send-email": "firebase/firestore-send-email@0.2.10"
+  }
+}

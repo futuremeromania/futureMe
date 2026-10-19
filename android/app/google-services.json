@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "283516933465",
+    "project_id": "futureme-a6ea7",
+    "storage_bucket": "futureme-a6ea7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283516933465:android:ac77529eb2bd341b0da848",
+        "android_client_info": {
+          "package_name": "com.futureme.futureme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBON0AkeIH08LCJ-opPcRCLGPVf1hCvACo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

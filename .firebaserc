@@ -1,0 +1,13 @@
+{
+  "projects": {
+    "default": "futureme-a6ea7"
+  },
+  "targets": {},
+  "etags": {
+    "futureme-a6ea7": {
+      "extensionInstances": {
+        "firestore-send-email": "f23d6fca4fb073535746cb6cf9f22cbee7fb9f6ab6cbd4424a6aa2041daf44bc"
+      }
+    }
+  }
+}
